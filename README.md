@@ -13,7 +13,7 @@ Building a TV remote through the Home Assistant system
 ![image](https://github.com/elishaip/Global-TV-remote/assets/89676547/4f71012c-b5ba-4268-a7f3-3809be95b1c9)
 
 הוסף כרטיס חדש מסוג "Manual" ולהכניס את תוכן הקוד YAML:
-{{ "יבנה" in state_attr('binary_sensor.red_alert', 'data').split(', ') }}
+
 
 
 
