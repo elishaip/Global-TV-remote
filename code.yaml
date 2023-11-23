@@ -1,0 +1,191 @@
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: input_boolean.num_1_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-1
+        icon: mdi:numeric-1
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.num_2_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-2
+        icon: mdi:numeric-2
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.num_3_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-3
+        icon: mdi:numeric-3
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: input_boolean.num_4_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-4
+        icon: mdi:numeric-4
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.num_5_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-5
+        icon: mdi:numeric-5
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.num_6_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-6
+        icon: mdi:numeric-6
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: input_boolean.num_7_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-7
+        icon: mdi:numeric-7
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.num_8_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-8
+        icon: mdi:numeric-8
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.num_9_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-9
+        icon: mdi:numeric-9
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: switch.lg_tv_webos_ep
+        show_state: false
+        show_name: false
+        name: TV EP
+        icon: mdi:television-box
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: gray
+          - value: 'on'
+            color: lawngreen
+        tap_action:
+          action: none
+      - type: custom:button-card
+        entity: input_boolean.num_0_tv_ep
+        show_state: false
+        show_name: false
+        name: NUM-0
+        icon: mdi:numeric-0
+        aspect_ratio: '2.5'
+        state:
+          - value: 'off'
+            color: lawngreen
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: switch.lg_tv_webos_ep
+        show_state: false
+        show_name: false
+        name: TV Power
+        icon: mdi:power
+        aspect_ratio: '2.5'
+        state:
+          - value: 'on'
+            color: red
+          - value: 'off'
+            color: red
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: input_boolean.netflix_app_helper_tv_ep
+        show_state: false
+        name: NETFLIX
+        icon: mdi:netflix
+        aspect_ratio: '2'
+        state:
+          - value: 'off'
+            color: gray
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.partner_tv_app_helper_tv_ep
+        show_state: false
+        name: Partner TV
+        icon: mdi:alpha-p-box
+        aspect_ratio: '2'
+        state:
+          - value: 'off'
+            color: gray
+          - value: 'on'
+            color: lawngreen
+      - type: custom:button-card
+        entity: input_boolean.youtube_app_helper_tv_ep
+        show_state: false
+        name: YouTube
+        icon: mdi:youtube
+        aspect_ratio: '2'
+        state:
+          - value: 'off'
+            color: gray
+          - value: 'on'
+            color: lawngreen
